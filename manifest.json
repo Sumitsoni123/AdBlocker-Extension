@@ -1,0 +1,19 @@
+{
+    "name": "devStage Adblocker",
+    "version": "1.0",
+    "description": "DevStage AdBlocker Ext",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "128": "icons/img.png"
+    },
+    "manifest_version": 2
+}
